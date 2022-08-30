@@ -1,0 +1,19 @@
+.header-container{
+    padding-top: 5vh;
+    color: white;
+    padding-left: 20%;
+    padding-bottom: 5vh;
+}
+
+.list{
+    color: #950740;
+    text-decoration: none;
+    width: 70%;
+    justify-content: space-between;
+    display: flex;
+    font-size: larger;
+}
+
+ul{
+    list-style-type: none;
+}

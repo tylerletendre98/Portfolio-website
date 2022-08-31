@@ -1,12 +1,37 @@
 .home-container{
+    padding-left: 25vw;
+    padding-top: 15vh;
+    height: 90vh;
+    background-color: #4e4e50;
     display: flex;
 }
 
-.info{
-    margin-left: 5%;
-    color: white;
+
+.info h1{
+    background-color: #4e4e50;
 }
 
+.info h3{
+    background-color: #4e4e50;
+}
+.info{
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 5%;
+    color: white;
+    background-color: #4e4e50;
+}
+
+.picture-container{
+    background-color: #4e4e50;
+}
 .picture-container img{
     border-radius: 10%;
+    box-shadow: 10px 11px 5px 0px rgba(0,0,0,0.75);
+}
+
+.images-container{
+
+    padding: 10px;
+    background-color: #c3073f;
 }

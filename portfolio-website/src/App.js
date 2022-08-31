@@ -2,8 +2,9 @@ import "./App.css";
 import Header from "./components/header/Header";
 import Home from "./pages/home/Home";
 import picture from "./images/portfolioPic.JPG";
-import mongoDbPic from "./images/mongodbNewPic.jpg";
-import nodePic from "./images/nodejs.jpg";
+import nodePic from "./images/NodeJS.png";
+import mongoDbPic from './images/mongodbPic.png'
+import expressPic from './images/expressPic.png'
 import reactPic from "./images/react-logo-png-9.png";
 import { Routes, Route } from "react-router-dom";
 
@@ -19,10 +20,11 @@ function App() {
             path="/"
             element={
               <Home
-                picture={picture}
                 mongoDbPic={mongoDbPic}
+                picture={picture}
                 nodePic={nodePic}
                 reactPic={reactPic}
+                expressPic={expressPic}
               />
             }
           />

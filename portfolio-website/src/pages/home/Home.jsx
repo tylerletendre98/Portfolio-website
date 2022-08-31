@@ -12,10 +12,15 @@ function Home(props) {
           <h1>Tyler Letendre</h1>
         </div>
         <div>
-          <h3>MERN Stack Developer</h3>
+          <h3>Full Stack Developer</h3>
         </div>
         <div>
-          <img src={props.reactPic} alt="" />
+        </div>
+        <div className="images-container">
+          <img src={props.reactPic} alt="" height={80} width={100}/>
+          <img src={props.mongoDbPic} alt="" height={80} width={100}/>
+          <img src={props.expressPic} alt="" height={80} width={100}/>
+          <img src={props.nodePic} alt="" height={80} width={120}/>
         </div>
       </div>
     </div>
